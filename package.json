@@ -11,7 +11,7 @@
     "url": "git+https://github.com/nsrau/react-youtube-iframe.git"
   },
   "author": "nsrau",
-  "homepage": "https://github.com/nsrau/react-youtube-iframe",
+  "homepage": "https://nsrau.github.io/react-youtube-iframe/",
   "keywords": [
     "react",
     "youtube"
@@ -20,7 +20,8 @@
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "deploy": "cd example && yarn build && gh-pages -d build"
   },
   "peerDependencies": {
     "react": "^16.0.0",
