@@ -3944,7 +3944,7 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^3.0.2:
+csstype@^3.0.2, csstype@^3.0.8:
   version "3.0.8"
   resolved "https://verdaccio.sviluppo.key-biz.cloud/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha512-jXKhWqXPmlUeoQnF/EhTtTl4C9SnrxSH/jZUih3jmO6lBKr99rP3/+FmrMj4EFpOXzMtXHAZkd3x0E6h6Fgflw==
@@ -9126,9 +9126,16 @@ react-scripts@^4.0.3:
   optionalDependencies:
     fsevents "^2.1.3"
 
-"react-youtube-iframe@link:..":
-  version "0.0.0"
-  uid ""
+react-youtube-iframe@^0.1.3:
+  version "0.1.3"
+  resolved "https://verdaccio.sviluppo.key-biz.cloud/react-youtube-iframe/-/react-youtube-iframe-0.1.3.tgz#3199df0e117d91cbc52377d12a4077d1f310c09c"
+  integrity sha512-4qbAyGaRCxzAzRwre3NpEuoPlXroJZLiztoMOMyk/Z4wRmmNfijp9J2AtqA8II9G17UlGZnjPg9HAWQXrjlSig==
+  dependencies:
+    csstype "^3.0.8"
+    js-tokens "^4.0.0"
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    scheduler "^0.20.2"
 
 "react@link:../node_modules/react":
   version "0.0.0"

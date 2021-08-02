@@ -1,6 +1,6 @@
 {
   "name": "react-youtube-iframe",
-  "version": "0.1.3",
+  "version": "0.0.1",
   "description": "Learning how to create React modules using TypeScript!",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
