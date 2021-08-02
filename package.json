@@ -1,6 +1,6 @@
 {
   "name": "react-youtube-iframe",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Learning how to create React modules using TypeScript!",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nsrau/react-youtube-iframe.git"
+    "url": "git+https://github.com/nsrau/react-youtube-iframe.git"
   },
   "author": "nsrau",
   "homepage": "https://github.com/nsrau/react-youtube-iframe",
