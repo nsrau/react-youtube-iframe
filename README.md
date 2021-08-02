@@ -2,6 +2,8 @@
 ### lite component to embed and control YouTube videos
 
 ```jsx
+import YouTubeIframe  from 'react-yotube-iframe'
+
 const MyComponent = () => {
     return (
         <YouTubeIframe videoId='44XYEeD1A1U' />
