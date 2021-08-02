@@ -35,5 +35,19 @@
   },
   "files": [
     "/lib"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/nsrau/react-youtube-iframe/issues"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "scheduler": "^0.20.2",
+    "csstype": "^3.0.8",
+    "object-assign": "^4.1.1",
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0"
+  }
 }
