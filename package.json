@@ -1,11 +1,21 @@
 {
-  "name": "react-yotube-iframe",
-  "version": "0.1.0",
+  "name": "react-youtube-iframe",
+  "version": "0.1.1",
   "description": "Learning how to create React modules using TypeScript!",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nsrau/react-youtube-iframe.git"
+  },
+  "author": "nsrau",
+  "homepage": "https://github.com/nsrau/react-youtube-iframe",
+  "keywords": [
+    "react",
+    "youtube"
+  ],
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",

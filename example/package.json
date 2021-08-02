@@ -1,5 +1,5 @@
 {
-  "name": "react-yotube-iframe-example",
+  "name": "react-youtube-iframe-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "^4.0.3",
-    "react-yotube-iframe": "link:..",
+    "react-youtube-iframe": "link:..",
     "typescript": "4.3.5"
   },
   "scripts": {

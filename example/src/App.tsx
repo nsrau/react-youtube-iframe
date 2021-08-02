@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import YouTubeIframe, { Commands } from 'react-yotube-iframe';
+import YouTubeIframe, { Commands } from 'react-youtube-iframe';
 
 import './App.css';
 
