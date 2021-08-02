@@ -1,6 +1,6 @@
 {
   "name": "react-youtube-iframe",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "lite component to embed and control YouTube videos",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
