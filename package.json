@@ -1,6 +1,6 @@
 {
   "name": "react-youtube-iframe",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "lite component to embed and control YouTube videos",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
@@ -21,7 +21,8 @@
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
     "prepublishOnly": "yarn build",
-    "deploy": "cd example && yarn build && gh-pages -d build"
+    "deploy": "cd example && yarn build && gh-pages -d build",
+    "build:deploy": "yarn build && yarn deploy"
   },
   "peerDependencies": {
     "react": "^16.0.0",
