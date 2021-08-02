@@ -59,7 +59,7 @@ const YouTubeIframe = (props: Props): JSX.Element => {
             ref={iframeVideoRef}
             frameBorder='0'
             allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-            src={`https://www.youtube.com/embed/${videoId}?modestbranding=1&autoplay=1&loop=1&enablejsapi=1&controls=0`}
+            src={`https://www.youtube.com/embed/${videoId}?modestbranding=1&enablejsapi=1&controls=0`}
         />
     );
 };
