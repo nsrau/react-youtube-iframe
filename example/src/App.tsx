@@ -12,6 +12,7 @@ function App() {
                 <h2>Simple</h2>
                 <YouTubeIframe videoId='44XYEeD1A1U' />
             </div>
+            <hr/>
             <div className='sample'>
                 <h2>With actions</h2>
                 <div className='with-mask'>
@@ -19,7 +20,7 @@ function App() {
 
                     <YouTubeIframe
                         command={sampleTwo}
-                        videoId='44XYEeD1A1U'
+                        videoId='pAgnJDJN4VA'
                     />
                 </div>
                 <div className='actions'>
