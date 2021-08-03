@@ -10,7 +10,7 @@ const MyComponent = () => {
     )
 }
 
-export default App;
+export default MyComponent
 ```
 
 ### [open demo](https://nsrau.github.io/react-youtube-iframe/)
