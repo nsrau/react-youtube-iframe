@@ -2,7 +2,7 @@
 ### lite component to embed and control YouTube videos
 
 ```jsx
-import React = require('react');
+import React from 'react';
 import YouTubeIframe from 'react-youtube-iframe';
 
 export default function MyComponent() {
